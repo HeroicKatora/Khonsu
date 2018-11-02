@@ -1,0 +1,6 @@
+[package]
+name = "khonsu"
+version = "0.1.0"
+authors = ["Andreas Molzer <andreas.molzer@gmx.de>"]
+
+[dependencies]
