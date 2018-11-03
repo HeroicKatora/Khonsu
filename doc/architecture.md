@@ -10,17 +10,18 @@ In the background, some basic utilities can be pointed at sources of calendar or
 task listings to retrieve their information or create a canonical references to
 them. Depending on the type of resource, these utilities may also supporting
 updating such information, publishing and subscribing to a remote source. For
-more information about an `entry`, see <#Entries>. For more information about
-interpreting and receiving the output of a backend, refer to <#Backend>.
+more information about an `entry`, see [Entries](#Entries). For more information
+about interpreting and receiving the output of a backend, refer to
+[Backend](#Backend).
 
-The core (see <#Core>) is the common source of information for frontends and
-backends. It includes configuration management and records information such as
-the list of `entry` sources or their credentials. As a consequence, it provides
-a single uniform source of truth for viewing calendars and tasks and executing
-actions.
+The core (see [Core](#Core)) is the common source of information for frontends
+and backends. It includes configuration management and records information such
+as the list of `entry` sources or their credentials. As a consequence, it
+provides a single uniform source of truth for viewing calendars and tasks and
+executing actions.
 
 A frontend presents the information to the user and takes input to modify the
-stored entries, see <#Frontend> for a non-definitive list.
+stored entries, see [Frontend](#Frontend) for a non-definitive list.
 
 ## Entries
 
